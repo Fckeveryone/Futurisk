@@ -13,6 +13,7 @@
 @charset "UTF-8";
 :root {
   --main-color: #1a1a1a;
+  --avatar-radius: 8px;
 }
 
 .theme-dark {
@@ -48,52 +49,10 @@
   --epicshadow1: #0003;
 }
 
-:root .messagesWrapper-1sRNjr {
-  flex-direction: column;
-}
-:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs {
-  padding-left: 50px;
-}
-:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs.groupStart-23k01U .contents-2mQqc9::after {
-  left: 48px;
-  width: 30px;
-  height: 30px;
-}
-:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs .header-23xsNx {
-  left: 38px;
-  margin-top: -25px;
-  margin-bottom: 6px;
-  width: 100%;
-}
-:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs .timestamp-3ZCmNB.alt-1uNpEt {
-  position: absolute;
-  font-size: 0.6875rem !important;
-  right: 10px;
-  left: unset;
-  opacity: 0;
-}
-:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs:hover .timestamp-3ZCmNB {
-  opacity: 1;
-}
-:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs .iconContainer-3GkGRf {
-  position: unset;
-  width: unset;
-  margin-right: 10px;
-}
-:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs .repliedMessage-VokQwo {
-  margin-left: 48px;
-}
-:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs .repliedMessage-VokQwo .replyAvatar-1K9Wmr {
-  border-radius: calc(var(--avatar-radius) - 3px);
-}
-:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
-  display: none;
-}
-:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs .blockquoteContainer-U5TVEi blockquote {
-  padding: 12px;
-  background: var(--background-secondary);
-  border-radius: 4px;
-  width: 100%;
+:root {
+  --revision: "2";
+  --elevation-low: none;
+  --premium-shit-cppf-radius: var(--avatar-radius);
 }
 :root .wrapper-2aW0bm {
   border: none;
@@ -2542,4 +2501,53 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 :root #MemberCount + .members-1998pB {
   margin-top: 0;
   padding-top: 70px;
+}
+
+/* Settings */
+:root {
+    
+    /* Colors */
+    --main-color: #272727;
+}
+
+/* Dark/Light vars */
+.theme-dark {
+
+    /* BGs */
+    --background-primary: #141414;
+    --background-secondary:  #141414;
+    --background-secondary-alt: #181818;
+    --background-secondary-alt-alt: #222222;
+    --background-tertiary: #131313;
+    
+    --deprecated-store-bg: var(--background-primary);
+    --background-floating: var(--background-secondary);
+
+    --colortransparency: #0003;
+
+    /* Cards */
+    --card: #212332;
+
+    /* Other stuff */
+    --textcolor: #fff;
+    --epicshadow1: #fff3;
+}
+
+.theme-light {
+
+    /* BGs */
+    --background-primary: #fafafa;
+    --background-secondary: #f7f7f7;
+    --background-secondary-alt: #fff;
+    --background-secondary-alt-alt: #eee;
+    --background-tertiary: #fff;
+    
+    --colortransparency: #0001;
+
+    /* Cards */
+    --card: #aaaaaa;
+
+    /* Other stuff */
+    --textcolor: #000;
+    --epicshadow1: #0003;
 }
