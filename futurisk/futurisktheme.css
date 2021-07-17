@@ -13,7 +13,6 @@
 @charset "UTF-8";
 :root {
   --main-color: #1a1a1a;
-  --avatar-radius: 8px;
 }
 
 .theme-dark {
@@ -65,13 +64,6 @@
   left: 48px;
   width: 30px;
   height: 30px;
-}
-:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs .avatar-1BDn8e {
-  position: relative;
-  left: -2px;
-  width: 30px;
-  height: 30px;
-  border-radius: var(--avatar-radius);
 }
 :root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs .header-23xsNx {
   left: 38px;
