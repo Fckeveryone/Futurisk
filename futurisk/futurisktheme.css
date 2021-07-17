@@ -48,12 +48,6 @@
   --epicshadow1: #0003;
 }
 
-:root {
-  --revision: "2";
-  --elevation-low: none;
-  --premium-shit-cppf-radius: var(--avatar-radius);
-}
-
 :root .messagesWrapper-1sRNjr {
   flex-direction: column;
 }
